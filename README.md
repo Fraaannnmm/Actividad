@@ -8,7 +8,7 @@ partes, separadas por puntos, son:
 
 1. **Header**: contiene metadatos como el tipo (`JWT`) y el algoritmo
    (`HS256`).
-2. **Payload**: contiene *claims* como `sub` (sujeto), `role` (rol) y `exp`
+2. **Payload**: contiene _claims_ como `sub` (sujeto), `role` (rol) y `exp`
    (expiración). Está codificado en Base64URL, no cifrado.
 3. **Signature**: firma el header y el payload con `SECRET_KEY`, permite
    detectar modificaciones.
@@ -66,10 +66,10 @@ Abrir Swagger UI en <http://127.0.0.1:8000/docs>. `/login` recibe
 
 Usuarios demo:
 
-| Usuario | Contraseña | Rol |
-|---|---|---|
+| Usuario                  | Contraseña      | Rol        |
+| ------------------------ | --------------- | ---------- |
 | `estudiante@ujap.edu.ve` | `estudiante123` | estudiante |
-| `maria@ujap.edu.ve` | `profesor123` | profesor |
+| `maria@ujap.edu.ve`      | `profesor123`   | profesor   |
 
 ### Evidencias Swagger:
 
